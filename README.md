@@ -13,8 +13,7 @@ The Home Work has three components to be delievered before 9AM: ⚠️
 In the code below, add an `if` statement to the beginning of `getLength` that
 returns zero if `str` is null:
 
-<?code-excerpt "null_safety_codelab/bin/type_promotion.dart" replace="/.*if\ \(.*\n.*\n.*//g"?>
-```dart:run-dartpad:ga_id-null_checking:null_safety-true
+```Kotlin
 fun getLength(str: String?) : Int {
     // Add null check here
     
