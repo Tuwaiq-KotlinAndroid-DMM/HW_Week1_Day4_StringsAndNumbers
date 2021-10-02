@@ -1,9 +1,8 @@
-fun main(args: Array<String>) {
+fun main(){
 
-    var string1="The quick brown fox jumps over the lazy dog"
-    var string2= "brown fox jumps"
+    var old =" The quick brown fox jumps over the lazy dog."
 
-    println(string2.split(string1))
+    var new : String
 
-
+    println(old.substring(11,26))
 }
